@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Criptografía con Matrices</title>
+</head>
+<body class="main__container">
+    <header class="main__container--title">
+        <h1>Criptografía con Matrices</h1>
+    </header>
+    <main class="main__container--program">
+        <form class="form__container">
+            <div class="form__container--input">
+                <label for="text">Texto a cifrar:</label>
+                <textarea name="text" id="text" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form__container--input">
+                <label for="key">Llave:</label>
+                <input type="text" name="key" id="key">
+            </div>
+            <div class="form__container--input">
+                <label for="action">Acción:</label>
+                <select name="action" id="action">
+                    <option value="encrypt">Cifrar</option>
+                    <option value="decrypt">Descifrar</option>
+                </select>
+            </div>
+            <div class="form__container--input">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="form__container--output">
+            <label>Resultado:</label>
+            <p id="output"></p>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
