@@ -1,0 +1,19 @@
+{
+  "name": "criptografia-con-algebra-lineal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vecasel/Criptografia-con-Algebra-Lineal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vecasel/Criptografia-con-Algebra-Lineal/issues"
+  },
+  "homepage": "https://github.com/vecasel/Criptografia-con-Algebra-Lineal#readme",
+  "description": ""
+}
